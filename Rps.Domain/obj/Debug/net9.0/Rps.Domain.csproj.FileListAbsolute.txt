@@ -1,0 +1,11 @@
+D:\Work\BackGamonGames.Task1\Rps.Domain\bin\Debug\net9.0\Rps.Domain.deps.json
+D:\Work\BackGamonGames.Task1\Rps.Domain\bin\Debug\net9.0\Rps.Domain.dll
+D:\Work\BackGamonGames.Task1\Rps.Domain\bin\Debug\net9.0\Rps.Domain.pdb
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.AssemblyInfoInputs.cache
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.AssemblyInfo.cs
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.csproj.CoreCompileInputs.cache
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.dll
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\refint\Rps.Domain.dll
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\Rps.Domain.pdb
+D:\Work\BackGamonGames.Task1\Rps.Domain\obj\Debug\net9.0\ref\Rps.Domain.dll

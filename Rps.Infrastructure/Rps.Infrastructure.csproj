@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Rps.Application\Rps.Application.csproj"/>
+        <ProjectReference Include="..\Rps.Domain\Rps.Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.67.0"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.1"/>
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.3"/>
+    </ItemGroup>
+
+</Project>

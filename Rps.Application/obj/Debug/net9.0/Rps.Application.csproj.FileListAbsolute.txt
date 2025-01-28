@@ -1,0 +1,15 @@
+D:\Work\BackGamonGames.Task1\Rps.Application\bin\Debug\net9.0\Rps.Application.deps.json
+D:\Work\BackGamonGames.Task1\Rps.Application\bin\Debug\net9.0\Rps.Application.dll
+D:\Work\BackGamonGames.Task1\Rps.Application\bin\Debug\net9.0\Rps.Application.pdb
+D:\Work\BackGamonGames.Task1\Rps.Application\bin\Debug\net9.0\Rps.Domain.dll
+D:\Work\BackGamonGames.Task1\Rps.Application\bin\Debug\net9.0\Rps.Domain.pdb
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.csproj.AssemblyReference.cache
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.AssemblyInfoInputs.cache
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.AssemblyInfo.cs
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.csproj.CoreCompileInputs.cache
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Appl.2F9E410C.Up2Date
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.dll
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\refint\Rps.Application.dll
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\Rps.Application.pdb
+D:\Work\BackGamonGames.Task1\Rps.Application\obj\Debug\net9.0\ref\Rps.Application.dll

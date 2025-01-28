@@ -1,0 +1,88 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Rps.Api.Grpc";
+
+service GameService {
+  rpc RegisterUser(RegisterUserRequest) returns (RegisterUserReply);
+
+  rpc GetBalance(UserRequest) returns (BalanceReply);
+
+  rpc GetGames(Empty) returns (GamesReply);
+
+  rpc JoinByName(JoinByNameRequest) returns (JoinGameReply);
+
+  rpc MakeMove(MoveRequest) returns (MoveReply);
+
+  rpc SubscribeGame(SubscribeRequest) returns (stream GameEvent);
+}
+
+enum EventType {
+  INFO = 0;
+  PLAYER_JOINED = 1;
+  MOVE_MADE = 2;
+  GAME_ENDED = 3;
+}
+
+enum MoveType {
+  ROCK = 0;
+  SCISSORS = 1;
+  PAPER = 2;
+}
+
+message RegisterUserRequest {
+  string username = 1;
+}
+
+message RegisterUserReply {
+  int32 userId = 1;
+  string message = 2;
+}
+
+message UserRequest {
+  int32 userId = 1;
+}
+
+message BalanceReply {
+  double balance = 1;
+}
+
+message Empty {}
+
+message GamesReply {
+  repeated GameInfo games = 1;
+}
+
+message GameInfo {
+  string roomName = 1;
+  double bet = 2;
+  bool isWaitingPlayer = 3;
+}
+
+message JoinByNameRequest {
+  int32 userId = 1;
+  string roomName = 2;
+}
+
+message JoinGameReply {
+  string message = 1;
+}
+
+message MoveRequest {
+  int32 userId = 1;
+  string roomName = 2;
+  MoveType move = 3;
+}
+
+message MoveReply {
+  string message = 1;
+}
+
+message SubscribeRequest {
+  int32 userId = 1;
+  string roomName = 2;
+}
+
+message GameEvent {
+  EventType eventType = 1;
+  string message   = 2;
+}

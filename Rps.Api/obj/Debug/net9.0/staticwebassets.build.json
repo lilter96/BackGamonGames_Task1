@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ixJwHcVjpfCLreybQ6S50YxjypCfFkXzRzZpAbgtuPI=",
+  "Source": "Rps.Api",
+  "BasePath": "_content/Rps.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.67.0"/>
+        <PackageReference Include="Google.Protobuf" Version="3.27.0"/>
+        <PackageReference Include="Grpc.Tools" Version="2.67.0" PrivateAssets="All"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="..\Rps.Api\Grpc\Game.proto"
+                  ProtoRoot="..\Rps.Api\Grpc"
+                  GrpcServices="Client" />
+    </ItemGroup>
+
+</Project>
